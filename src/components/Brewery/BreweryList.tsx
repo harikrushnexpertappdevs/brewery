@@ -26,7 +26,7 @@ const BreweryList: React.FC = () => {
           <h3 className="text-lg font-semibold text-red-800 mb-2">
             Error Loading Breweries
           </h3>
-          <p className="text-red-600">{error}</p>
+          {/* <p className="text-red-600">{error}</p> */}
         </div>
       </div>
     );
